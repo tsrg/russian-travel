@@ -6,3 +6,7 @@
   color: #FFFFFF;
   padding-left: 8px;
 }
+
+.place__link:hover {
+  color: rgb(213, 213, 213);
+}
