@@ -1,0 +1,9 @@
+.place__paragraph {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 163%;
+  padding-left: 8px;
+  padding-bottom: 26px;
+  margin: 0;
+  grid-area: paragraph;
+}

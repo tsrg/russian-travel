@@ -1,0 +1,9 @@
+.place {
+  padding-top: 80px;
+  display: grid;
+  grid-template-columns: repeat(2, 50%);
+  grid-template-rows: minmax(124px, 200px) 460px;
+  grid-template-areas:
+  "title website"
+  "image paragraph";
+}
