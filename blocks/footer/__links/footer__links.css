@@ -8,11 +8,6 @@
 
 @media all and (max-width: 768px) {
     .footer__links {
-        left: 24px;
-    }
-
-@media all and (max-width: 768px) {
-    .footer__links {
         position: relative;
         left: 16px;
         padding-bottom: 0;

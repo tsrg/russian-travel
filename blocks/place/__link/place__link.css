@@ -16,8 +16,10 @@
   .place__link {
     padding-top: 10px;
   }
+}
 
-  @media all and (max-width: 768px) {
-    .place__link {
-      padding-top: 12px;
-    }
+@media all and (max-width: 768px) {
+  .place__link {
+    padding-top: 12px;
+  }
+}
