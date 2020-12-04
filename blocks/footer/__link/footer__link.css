@@ -4,7 +4,7 @@
     font-weight: normal;
     font-size: 16px;
     line-height: 18px;
-    padding-right: 18px;
+    padding-right: 14px;
 }
 
 .footer__link:last-of-type {
@@ -13,4 +13,17 @@
 
 .footer__link:hover {
     color: rgb(213, 213, 213);
+}
+
+@media all and (max-width: 690px) {
+    .footer__link {
+        padding-bottom: 32px;
+        font-size: 24px;
+        line-height: 24px;
+        display: block;
+    }
+
+    .footer__link:last-of-type {
+        padding-bottom: 48px;
+    }
 }

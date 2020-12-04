@@ -6,3 +6,9 @@
     font-size: 16px;
     line-height: 163%;
 }
+
+@media all and (max-width: 720px) {
+    .intro__text {
+        padding-left: 0px;
+    }
+}

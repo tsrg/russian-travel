@@ -5,8 +5,19 @@
   text-decoration-line: underline;
   color: #FFFFFF;
   padding-left: 8px;
+  padding-top: 12px;
 }
 
 .place__link:hover {
   color: rgb(213, 213, 213);
 }
+
+@media all and (max-width: 1024px) {
+  .place__link {
+    padding-top: 10px;
+  }
+
+  @media all and (max-width: 768px) {
+    .place__link {
+      padding-top: 12px;
+    }

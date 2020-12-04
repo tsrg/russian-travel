@@ -2,8 +2,31 @@
   padding-top: 80px;
   display: grid;
   grid-template-columns: repeat(2, 50%);
-  grid-template-rows: fit-content(200px) 460px;
+  /*grid-template-rows: fit-content(200px) 460px;*/
   grid-template-areas:
   "title website"
   "image paragraph";
+}
+
+@media all and (max-width: 1024px) {
+  .place {
+    padding-top: 60px;
+  }
+}
+
+@media all and (max-width: 768px) {
+  .place {
+    padding-top: 73px;
+  }
+}
+
+@media all and (max-width: 550px) {
+  .place {
+    grid-template-columns: 100%;
+    grid-template-areas:
+    "title"
+    "image"
+    "paragraph";
+    padding-top: 49px;
+  }
 }

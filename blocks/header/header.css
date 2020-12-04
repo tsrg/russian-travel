@@ -1,7 +1,15 @@
 .header {
-  max-width: 1184px;
+  max-width: 1280px;
   margin: 0 auto;
   padding-top: 28px;
+  padding-right: 48px;
+  padding-left: 48px;
+}
+
+@media all and (max-width: 1200px) {
+  .header {
+
+  }
 }
 
 @media all and (max-width: 1024px) {
@@ -13,11 +21,16 @@
 @media all and (max-width: 768px) {
   .header {
     max-width: 720px;
+    padding-right: 24px;
+    padding-left: 24px;
   }
 }
 
 @media all and (max-width: 320px) {
   .header {
+    padding-right: 0;
+    padding-left: 0;
     max-width: 288px;
+    padding-top: 16px;
   }
 }

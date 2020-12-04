@@ -3,3 +3,30 @@
     margin: 0 auto;
     padding-top: 93px;
 }
+
+@media all and (max-width: 960px) {
+  .intro {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+}
+
+@media all and (max-width: 1024px) {
+  .intro {
+    max-width: 928px;
+  }
+}
+
+@media all and (max-width: 768px) {
+  .intro {
+    max-width: 720px;
+    padding-top: 90px;
+  }
+}
+
+@media all and (max-width: 320px) {
+  .intro {
+    max-width: 288px;
+    padding-top: 64px;
+  }
+}

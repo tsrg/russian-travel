@@ -4,3 +4,9 @@
     padding: 33px 0 0 0;
     list-style: none;
 }
+
+@media all and (max-width: 320px) {
+    .intro__list {
+        padding-top: 35px;
+    }
+}
