@@ -6,8 +6,9 @@
     display: block;
     left: 0;
     top: 0;
-    position: absolute;
+    grid-area: cover-content;
     background-color: rgba(42, 44, 47, 0.3);
+    z-index: 1;
 }
 
 .cover__link:hover {

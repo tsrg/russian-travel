@@ -1,25 +1,13 @@
 .footer__copyright {
-    position: absolute;
-    top: 0;
-    right: 48px;
     font-weight: 400;
     font-size: 14px;
     line-height: 16px;
     margin: 0;
     padding-bottom: 24px;
 }
-
+/*
 @media all and (max-width: 768px) {
     .footer__copyright {
         right: 24px;
     }
-}
-
-@media all and (max-width: 690px) {
-    .footer__copyright {
-        position: relative;
-        right: 0;
-        padding-left: 16px;
-        padding-bottom: 24px;
-    }
-}
+}*/

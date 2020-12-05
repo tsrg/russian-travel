@@ -2,6 +2,7 @@
     width: 100%;
     z-index: -1;
     display: block;
+    grid-area: cover-content;
 
     /*
     background-image: url('../../../images/cover-trains.jpg');
