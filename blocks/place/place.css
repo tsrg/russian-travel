@@ -6,7 +6,6 @@
   grid-template-areas:
   "title website"
   "image paragraph";
-  overflow: hidden;
 }
 
 @media all and (max-width: 1024px) {
@@ -27,7 +26,8 @@
     grid-template-areas:
     "title"
     "image"
-    "paragraph";
+    "paragraph"
+    "website";
     padding-top: 49px;
   }
 }
